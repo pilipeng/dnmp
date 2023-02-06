@@ -130,7 +130,7 @@ services:
       - ${DATA_DIR}/mysql:/var/lib/mysql/:rw
       - ${MYSQL_LOG_DIR}:/var/log/mysql/:rw
 
-    restart: always
+#    restart: always
     networks:
       - default
     environment:
